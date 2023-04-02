@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="0.1.0"></a>
+## [0.1.0](https://www.github.com/ViMaSter/wiki-page-stats-generator/releases/tag/v0.1.0) (2023-4-2)
+
+### Features
+
+* Initial commit ([703b0f2](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/703b0f2ac21b5ec8591e1da48a8851cb24f89e0f))
+
+### Breaking Changes
+
+* Initial commit ([703b0f2](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/703b0f2ac21b5ec8591e1da48a8851cb24f89e0f))
+
 <a name="1.4.0"></a>
 ## [1.4.0](https://www.github.com/ViMaSter/service-scorecard-generator/releases/tag/v1.4.0) (2023-3-10)
 
