@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <Version>0.1.0</Version>
+        <PackAsTool>true</PackAsTool>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+        <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Description>Generate Azure Wiki-friendly markdown files about the most viewed pages of a specific Azure DevOps Wiki.</Description>
+        <PackageProjectUrl>https://github.com/ViMaSter/wiki-page-stats-generator</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/ViMaSter/wiki-page-stats-generator.git</RepositoryUrl>
+        <Authors>Vincent Mahnke (vincent@mahn.ke)</Authors>
+        <Copyright>(c) 2023 by Vincent Mahnke</Copyright>
+        <PackageTags>dotnet;csharp;azure-devops;markdown</PackageTags>
+        <PackageReleaseNotes>Check CHANGELOG.md</PackageReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Cocona.Lite" Version="2.2.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="Polly" Version="7.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="README.md">
+            <Link>README.md</Link>
+        </None>
+    </ItemGroup>
+    
+</Project>
