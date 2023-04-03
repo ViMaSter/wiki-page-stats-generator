@@ -12,6 +12,10 @@
       ]
     },
     {
+      "path": "/noviews",
+      "id": 26
+    },
+    {
       "path": "/page",
       "id": 28,
       "viewStats": [

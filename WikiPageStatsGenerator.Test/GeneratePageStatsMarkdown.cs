@@ -13,10 +13,17 @@ public class FileHttpClientHandler : HttpClientHandler
             throw new Exception("pages-batch.json does not exist as EmbeddedResource as part of test assembly");
         }
 
-        return await Task.FromResult(new HttpResponseMessage(HttpStatusCode.OK)
+        var responseMessage = new HttpResponseMessage(HttpStatusCode.OK)
         {
             Content = new StreamContent(stream)
-        });
+        };
+
+        if (request.Content == null || !request.Content.ReadAsStringAsync(cancellationToken).Result.Contains("continuationToken"))
+        {
+            responseMessage.Headers.TryAddWithoutValidation("x-ms-continuationtoken", "token");
+        }
+
+        return await Task.FromResult(responseMessage);
     }
 }
 
