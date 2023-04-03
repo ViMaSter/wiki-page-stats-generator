@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="1.0.0"></a>
+## [1.0.0](https://www.github.com/ViMaSter/wiki-page-stats-generator/releases/tag/v1.0.0) (2023-4-3)
+
+### Bug Fixes
+
+* Orders pages descending from total views ([cb6f026](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/cb6f026ff4c2aa99afd34e4b5825654efcaa8ae9))
+* Support page titles with pipes in title ([ca9b909](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/ca9b909ed1d60be5ae644031f933715cd8a4b4e2))
+
+### Breaking Changes
+
+* Orders pages descending from total views ([cb6f026](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/cb6f026ff4c2aa99afd34e4b5825654efcaa8ae9))
+
 <a name="0.1.0"></a>
 ## [0.1.0](https://www.github.com/ViMaSter/wiki-page-stats-generator/releases/tag/v0.1.0) (2023-4-2)
 
