@@ -9,16 +9,16 @@ public abstract class GeneratePageStatsMarkdown
 {
     // ReSharper disable InconsistentNaming - we want to use the same names as the JSON response from Azure DevOps
     // ReSharper disable ClassNeverInstantiated.Local - false positive
-    private record WikiPageDetail(
+    private sealed record WikiPageDetail(
         Value[] value
     );
 
-    private record Value(
+    private sealed record Value(
         string path,
         ViewStats[] viewStats
     );
 
-    private record ViewStats(
+    private sealed record ViewStats(
         string day,
         int count
     );
@@ -72,7 +72,7 @@ public abstract class GeneratePageStatsMarkdown
         foreach (var page in orderedKeysByTotalViews)
         {
             var viewCountByDay = pageViewCountByDay[page];
-            markdownTable.AppendLine($"| {page} | {viewCountByDay.Values.Sum()} | " + string.Join(" | ", last30Days.Select(day => viewCountByDay.TryGetValue(day, out var value) ? value.ToString() : "0")) + " |");
+            markdownTable.AppendLine($"| {page.Replace("|", "\\|")} | {viewCountByDay.Values.Sum()} | " + string.Join(" | ", last30Days.Select(day => viewCountByDay.TryGetValue(day, out var value) ? value.ToString() : "0")) + " |");
         }
         
         File.WriteAllText(Path.Join(outputPath, "Most-Viewed-Pages.md"), markdownTable.ToString());
