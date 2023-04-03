@@ -37,7 +37,7 @@ public class GeneratePageStatsMarkdownTest
         var expectedString = await expectedStreamContent.ReadAsStringAsync();
 
         // act
-        GeneratePageStatsMarkdown.Execute(client, string.Empty, string.Empty, string.Empty, string.Empty, string.Empty);
+        GeneratePageStatsMarkdown.Execute(client, new DateTime(2023, 4, 2, 2, 0, 0), string.Empty, string.Empty, string.Empty, string.Empty, string.Empty);
     
         // assert
         Assert.That(File.Exists(Path.Join("Most-Viewed-Pages.md")), Is.True);

@@ -22,6 +22,7 @@ internal abstract class Program
                 })
                 .ExecuteAsync(() => Task.FromResult(new HttpClient())).Result
         );
+        builder.Services.AddSingleton(DateTime.Now);
         
         var app = builder.Build();
         app.AddCommand(GeneratePageStatsMarkdown.Execute);
