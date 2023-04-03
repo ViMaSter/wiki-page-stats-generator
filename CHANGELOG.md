@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="1.1.0"></a>
+## [1.1.0](https://www.github.com/ViMaSter/wiki-page-stats-generator/releases/tag/v1.1.0) (2023-4-3)
+
+### Features
+
+* Support for multiple pages ([b46c149](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/b46c1497dc7b219d7fbc485964b55292528e6af3))
+
 <a name="1.0.0"></a>
 ## [1.0.0](https://www.github.com/ViMaSter/wiki-page-stats-generator/releases/tag/v1.0.0) (2023-4-3)
 
