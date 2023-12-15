@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="1.1.1"></a>
+## [1.1.1](https://www.github.com/ViMaSter/wiki-page-stats-generator/releases/tag/v1.1.1) (2023-12-15)
+
+### Bug Fixes
+
+* Changes test result artifact name to be unique ([1b91223](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/1b912233ea840480f8c2bcfe6b343b08bdef6511))
+
+### Other
+
+* Runs automerge after build-release-publish runs ([02d67f1](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/02d67f134c8f293f758a8c54ea0a4754202134ff))
+* **deps:** bump actions/checkout from 3 to 4 ([ec0961b](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/ec0961ba3e04e4cce64376123f06da85415e1afd))
+* **deps:** bump actions/download-artifact from 3 to 4 ([d5629df](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/d5629dfc0ec185e79ed6c2accc597a14f61d7579))
+* **deps:** bump actions/setup-dotnet from 3 to 4 ([369ecc1](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/369ecc1c1a4fb57c36c9845c5015ac14948ff471))
+* **deps:** bump actions/upload-artifact from 3 to 4 ([54687b0](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/54687b0475731af1b1112c56dd17abb3044d922f))
+* **deps:** bump coverlet.collector in /WikiPageStatsGenerator.Test ([af42d86](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/af42d8602c2a603d22ca76f22ae480068b5d39ea))
+* **deps:** bump dotnet/runtime in /WikiPageStatsGenerator ([c0b611d](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/c0b611dbba1566527c77e5445c95e2059a46e3c1))
+* **deps:** bump dotnet/sdk from 7.0 to 8.0 in /WikiPageStatsGenerator ([3d76319](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/3d7631941c6d65c4c4e8a745084964e389954f28))
+* **deps:** bump Microsoft.NET.Test.Sdk in /WikiPageStatsGenerator.Test ([a0ef0f1](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/a0ef0f14d4ca028eb038f80145f327e95b27291a))
+* **deps:** bump Microsoft.NET.Test.Sdk in /WikiPageStatsGenerator.Test ([3585608](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/3585608fc19acbe4bb1717b2e9afaa79f9666782))
+* **deps:** bump Microsoft.NET.Test.Sdk in /WikiPageStatsGenerator.Test ([d462992](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/d46299271439a22ee6c8ab964fa023392c0b1b93))
+* **deps:** bump Microsoft.NET.Test.Sdk in /WikiPageStatsGenerator.Test ([c13cf0f](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/c13cf0f895cec3127e3a27521670b07b36cd3d1e))
+* **deps:** bump Microsoft.NET.Test.Sdk in /WikiPageStatsGenerator.Test ([ed1dcd0](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/ed1dcd0915a3648e7dea446bc3e3797b8dd10b0d))
+* **deps:** bump NUnit in /WikiPageStatsGenerator.Test ([5555263](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/555526356beeff05d5ec3fe7a5d290cc4698febb))
+* **deps:** bump NUnit in /WikiPageStatsGenerator.Test ([4383ae9](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/4383ae9f0ea3593f6afc136be73f738414d590c4))
+* **deps:** bump NUnit in /WikiPageStatsGenerator.Test ([fe94522](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/fe945228b27fa82356e07edfbca9790eb5263128))
+* **deps:** bump NUnit.Analyzers in /WikiPageStatsGenerator.Test ([6344fbe](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/6344fbedd13c869e9b4a9c05d85ec5153aa1b75b))
+* **deps:** bump NUnit.Analyzers in /WikiPageStatsGenerator.Test ([d990022](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/d990022669193a43d83a247fe2901566689fbeb9))
+* **deps:** bump NUnit.Analyzers in /WikiPageStatsGenerator.Test ([332c6b5](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/332c6b5b8fb9c79b24e806009eabb2f5590b60e5))
+* **deps:** bump NUnit3TestAdapter in /WikiPageStatsGenerator.Test ([3c3c0ca](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/3c3c0ca7465cea45d6f2c8fa8afe35b0800fd091))
+* **deps:** bump Polly from 7.2.3 to 7.2.4 in /WikiPageStatsGenerator ([d75ce5a](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/d75ce5ae8aab45b1a560db8cdde49f63b5ecef5d))
+* **deps:** bump Polly in /WikiPageStatsGenerator.Test ([16f52ee](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/16f52ee043a1a210f35eb88a5207486535611f0b))
+* **deps:** bump Polly in /WikiPageStatsGenerator.Test ([7fe2d0b](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/7fe2d0b008ca0a54d4f9cfc49cb0022fe28174a0))
+* **deps:** bump Polly in /WikiPageStatsGenerator.Test ([1329996](https://www.github.com/ViMaSter/wiki-page-stats-generator/commit/1329996a012976aa9f208853800ce6b0f365e28b))
+
 <a name="1.1.0"></a>
 ## [1.1.0](https://www.github.com/ViMaSter/wiki-page-stats-generator/releases/tag/v1.1.0) (2023-4-3)
 
